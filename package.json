@@ -1,0 +1,29 @@
+{
+  "name": "hobby-helper-bot",
+  "version": "1.0.0",
+  "description": "Це навчальний проєкт у рамках курсу **\"Розробка ПЗ на основі платформи Node.js\"**.  \r Метою роботи є створення Telegram-бота, який реалізує основні сценарії взаємодії з користувачем, працює з даними, інтегрується з віддаленими сервісами та базою даних, а також проходить повний цикл розробки — від структури до тестування та CI/CD.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferzekK/hobby-helper-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ferzekK/hobby-helper-bot/issues"
+  },
+  "homepage": "https://github.com/ferzekK/hobby-helper-bot#readme",
+  "dependencies": {
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.1",
+    "husky": "^9.1.7",
+    "prettier": "^3.6.2"
+  }
+}

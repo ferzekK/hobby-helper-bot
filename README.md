@@ -1,11 +1,9 @@
-## ER Diagram
-
 ```mermaid
 erDiagram
     USER ||--o{ HABIT : has
     USER ||--o{ TASK : has
-    HABIT ||--o{ HABIT_LOG : logs
-    TASK ||--o{ TASK_LOG : logs
+    HABIT ||--o{ HABIT_LOG : generates
+    TASK ||--o{ TASK_LOG : generates
 
     USER {
         username
@@ -13,7 +11,7 @@ erDiagram
     }
 
     HABIT {
-        user (owner)
+        user
         title
         schedule
         created_at
@@ -26,7 +24,7 @@ erDiagram
     }
 
     TASK {
-        user (owner)
+        user
         title
         deadline
         priority
@@ -36,5 +34,4 @@ erDiagram
         task
         completed_at
     }
-
 ```
